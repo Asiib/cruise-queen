@@ -6,6 +6,8 @@ const decreaseEconomy= document.getElementById('economy-decrease');
 const subtotal= document.getElementById('subtotal-amount');
 const tax= document.getElementById('tax-amount');
 const total= document.getElementById('total-amount');
+const bookNowButton= document.getElementById('book-now-btn');
+
 
 // This function parsed the input value to integer
 function getParsedInputValue(plan){
@@ -64,4 +66,8 @@ increaseEconomy.addEventListener('click',function(){
 })
 decreaseEconomy.addEventListener('click',function(){
     ticketPlanHandler('economy',false)
+})
+
+bookNowButton.addEventListener('click',function(){
+    document.getElementById('confirmation-message').style.display = 'block';
 })

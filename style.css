@@ -125,3 +125,7 @@ nav ul li a:hover, a.active{
     display: flex;
     justify-content: space-between;
 }
+#confirmation-message{
+    color: #E33741;
+    display:none;
+}
