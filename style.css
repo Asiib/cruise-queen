@@ -126,6 +126,9 @@ nav ul li a:hover, a.active{
     justify-content: space-between;
 }
 #confirmation-message{
-    color: #3352F2;
+    background-color: #3352F2;
+    color: #ddd;
+    text-align: center;
+    border-radius: 3px;
     display:none;
 }
